@@ -160,7 +160,7 @@ screen = pygame.display.set_mode(windowsize)
 gridsize=np.array((49,49))
 #cell_data=np.random.randint(1,4,gridsize)
 cell_data=np.zeros(gridsize)
-cell_data[24,24]=10000
+#cell_data[24,24]=10000
 
 cellsize=windowsize/gridsize
 
